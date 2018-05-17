@@ -1,3 +1,4 @@
 ```
+yarn
 yarn run test
 ```
