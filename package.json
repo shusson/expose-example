@@ -1,0 +1,17 @@
+{
+  "name": "expose-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shusson <shane.a.husson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "class-transformer": "^0.1.9",
+    "es6-shim": "^0.35.3",
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "test": "ts-node --no-cache --type-check --project ./tsconfig.json ./src/main.ts"
+  }
+}
